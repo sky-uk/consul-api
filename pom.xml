@@ -95,17 +95,17 @@
         <repository>
             <id>central-proxy</id>
             <name>Sky Maven Central proxy</name>
-            <url>https://services.api.bskyb.com/nexus/content/repositories/central/</url>
+            <url>https://nexus.ovp.mgmt-aws.ottlocal.sky/nexus/content/repositories/central/</url>
         </repository>
         <repository>
             <id>nexus-repositories</id>
             <name>Archiva Sky</name>
-            <url>https://services.api.bskyb.com/nexus/content/repositories/sky-releases/</url>
+            <url>https://nexus.ovp.mgmt-aws.ottlocal.sky/nexus/content/repositories/sky-releases/</url>
         </repository>
         <repository>
             <id>nexus-snapshots</id>
             <name>Archiva Sky Snapshots</name>
-            <url>https://services.api.bskyb.com/nexus/content/repositories/sky-snapshots/</url>
+            <url>https://nexus.ovp.mgmt-aws.ottlocal.sky/nexus/content/repositories/sky-snapshots/</url>
         </repository>
     </repositories>
 
@@ -113,7 +113,7 @@
         <pluginRepository>
             <id>sky-ott-cs</id>
             <name>OTT-CS Plugin Repository</name>
-            <url>https://services.api.bskyb.com/nexus/content/repositories/sky-snapshots/</url>
+            <url>https://nexus.ovp.mgmt-aws.ottlocal.sky/nexus/content/repositories/sky-snapshots/</url>
             <layout>default</layout>
             <snapshots>
             </snapshots>
@@ -136,12 +136,12 @@
         <repository>
             <id>nexus-repositories</id>
             <name>Archiva Sky</name>
-            <url>https://services.api.bskyb.com/nexus/content/repositories/sky-releases/</url>
+            <url>https://nexus.ovp.mgmt-aws.ottlocal.sky/nexus/content/repositories/sky-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>Archiva Sky</name>
-            <url>https://services.api.bskyb.com/nexus/content/repositories/sky-snapshots/</url>
+            <url>https://nexus.ovp.mgmt-aws.ottlocal.sky/nexus/content/repositories/sky-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
